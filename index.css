@@ -17,7 +17,7 @@ body {
 header {
     width: auto;
     height: 100px;
-    background-image: url(../images/bg_header_wrap.gif);
+    background-image: url(./images/bg_header_wrap.gif);
     border-bottom: 2px solid #ff0459;
     margin: 1rem;
 }
@@ -32,7 +32,7 @@ header {
 
 nav ul li a {
     display: block;
-    background-image: url(../images/watchabar\ complete.gif);
+    background-image: url(./images/watchabar\ complete.gif);
     height: 60px;
     color: transparent;
     background-repeat: no-repeat;
@@ -70,45 +70,45 @@ nav ul {
 }
 
 .content1 {
-    background-image: url(../images/watchabox1.gif);
+    background-image: url(./images/watchabox1.gif);
 }
 
 .content2 {
-    background-image: url(../images/watchabox2.gif);
+    background-image: url(./images/watchabox2.gif);
 }
 
 .content3 {
-    background-image: url(../images/watchabox3.gif);
+    background-image: url(./images/watchabox3.gif);
 }
 
 .content4 {
-    background-image: url(../images/watchabox4.gif);
+    background-image: url(./images/watchabox4.gif);
 }
 
 .content5 {
     margin-left: 11px;
-    background-image: url(../images/watchabox10.gif);
+    background-image: url(./images/watchabox10.gif);
 }
 
 .content6 {
-    background-image: url(../images/watchabox5.gif);
+    background-image: url(./images/watchabox5.gif);
 }
 
 .content7 {
-    background-image: url(../images/watchabox6.gif);
+    background-image: url(./images/watchabox6.gif);
 }
 
 .content8 {
-    background-image: url(../images/watchabox7.gif);
+    background-image: url(./images/watchabox7.gif);
 }
 
 .content9 {
     margin-right: 10px;
-    background-image: url(../images/watchabox9.gif);
+    background-image: url(./images/watchabox9.gif);
 }
 
 .content10 {
-    background-image: url(../images/watchabox8.gif);
+    background-image: url(./images/watchabox8.gif);
 }
 
 .container {
