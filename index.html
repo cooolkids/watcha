@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Watcha</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -35,10 +36,31 @@
             <div class="content9"><a href="#">고객센터</a></div>
             <div class="content10"><a href="#">왓챠파티</a></div>
         </main>
-        <aside>
-            <div class="poster1"><a href="#">라라랜드</a></div>
-            <div class="poster2"><a href="#">싱스트리트</a></div>
-        </aside>
+            <div class="info">
+                <div class="login-wrapper">
+                    <h2>Login</h2>
+                    <form method="post" action="서버의url" id="login-form">
+                        <input type="text" name="userName" placeholder="Email">
+                        <input type="password" name="userPassword" placeholder="Password">
+                        <label for="remember-check">
+                            <input type="checkbox" id="remember-check">아이디 저장하기
+                        </label>
+                        <input type="submit" value="Login">
+                    </form>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/abouttime.jpg"></div>
+                        <div class="swiper-slide"><img src="./images/hungergame.jpg"></div>
+                        <div class="swiper-slide"><img src="./images/singstreet.jpg"></div>
+                        <div class="swiper-slide"><img src="./images/littlegirl.jpg"></div>
+                        <div class="swiper-slide"><img src="./images/lalaland.jpg"></div>
+                        <div class="swiper-slide"><img src="./images/ifonly.jpg"></div>
+                    </div>
+                    <div class="swiper-next"><img src="./images/arrownext.png"></div>
+                    <div class="swiper-prev"><img src="./images/arrowprev.png"></div>
+                </div>
+            </div>
     </div>
 
     <footer class="flex">
@@ -56,5 +78,7 @@
                 <option value="daum"><a href="#">daum</a></option>
             </select>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./index.js"></script>
 
 </html>
